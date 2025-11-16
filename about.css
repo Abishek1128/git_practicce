@@ -1,0 +1,108 @@
+/* ------------------------------
+   GLOBAL RESET
+--------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f8f9fc;
+    color: #333;
+}
+
+/* ------------------------------
+   NAVBAR
+--------------------------------*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c60ff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #2c60ff;
+}
+
+/* ------------------------------
+   ABOUT PAGE CONTENT
+--------------------------------*/
+.about {
+    padding: 60px 30px;
+}
+
+.about-container {
+    max-width: 850px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+}
+
+.about-container h1 {
+    color: #2c60ff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 17px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.about-container h2 {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #333;
+}
+
+.about-container ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.about-container ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* ------------------------------
+   FOOTER
+--------------------------------*/
+footer {
+    text-align: center;
+    padding: 18px;
+    background: #fff;
+    margin-top: 40px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.04);
+}
